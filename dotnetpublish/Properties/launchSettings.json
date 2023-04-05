@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "dotnetpublish": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7082"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30141,
+      "useSSL": false
+    }
+  }
+}
