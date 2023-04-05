@@ -1,15 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
     <OutputType>Exe</OutputType>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <PublishProfile>c:\valuespacescoderepo\tests\freshfunctionwithdocker\functionwithdocker\bin\release\net6.0\win-x64\publish\linux-x64</PublishProfile>
+	<ImplicitUsings>enable</ImplicitUsings>
     <SelfContained>true</SelfContained>
     <ContainerImageName>dotnet-worker-image</ContainerImageName>
     <ContainerImageTag>latest</ContainerImageTag>
-    <ContainerWorkingDirectory>/bin</ContainerWorkingDirectory>
-    
+    <ContainerWorkingDirectory>/bin</ContainerWorkingDirectory>    
     <ContainerRuntimeIdentifier>linux-x64</ContainerRuntimeIdentifier>
   </PropertyGroup>
   <ItemGroup>
